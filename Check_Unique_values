@@ -1,0 +1,4 @@
+function checkUnique(str){
+  const uniqueVal = [...new Set(str.split(""))];
+  return uniqueVal.length===str.length;
+}
